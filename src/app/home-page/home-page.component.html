@@ -1,0 +1,9 @@
+<h1>Details</h1>
+<hr>
+
+<input type="text" [(ngModel)]="firstname" />
+<br />
+In Uppercase: {{firstname | uppercase}}
+
+<br />
+DOB: {{dob | date: "mm/dd/yyyy" | uppercase}}

@@ -1,0 +1,18 @@
+
+<h1>Welcome to angular</h1>
+<hr>
+
+<form (ngSubmit)="submitForm()">
+  Firstname: 
+  <input type="text" [formControl]="firstNameControl" />
+  <br/>
+  <br/>
+  <br/>  
+  Lastname: 
+  <input type="text" [formControl]="lastNameControl" />
+
+  <br/>
+  <br/>
+  <br/>  
+  <input type="submit" value="Submit" >
+</form>
